@@ -1,1 +1,0 @@
-import{_ as t,c as o,a as c,t as r,b as a}from"./index-ChgPyS9X.js";const n={},s={class:"flex-center"},i={onclick:"location.href=location.href"};function _(e,l){return a(),o("main",s,[c("button",i,r(e.$route.query.btnText||e.$route.params.any||"Redirect"),1)])}const d=t(n,[["render",_]]);export{d as default};

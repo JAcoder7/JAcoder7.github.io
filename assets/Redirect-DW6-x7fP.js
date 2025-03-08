@@ -1,0 +1,1 @@
+import{_ as t,c as o,b as c,t as r,e as n}from"./index-C5HzupN-.js";const a={},s={class:"flex-center"},i={onclick:"location.href=location.href"};function _(e,l){return n(),o("main",s,[c("button",i,r(e.$route.query.btnText||e.$route.params.name||"Redirect"),1)])}const d=t(a,[["render",_]]);export{d as default};
