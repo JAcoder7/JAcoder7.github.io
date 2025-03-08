@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.time_keeper.app",
+      "sha256_cert_fingerprints": [
+        "F7:D7:4F:08:A9:79:DD:DF:E5:50:25:60:F5:2A:64:21:3F:D8:5D:A4:3F:8B:D1:28:A4:42:50:8D:E2:88:FD:C1"
+      ]
+    }
+  }
+]
