@@ -15,7 +15,7 @@ const router = createRouter({
       component: () => import('../views/RegisterGHAppView.vue'),
     },{
       path: '/redirect',
-      alias: ["/:any/redirect"],
+      alias: ["/redirect/:abc","/:name/redirect","/:name/redirect/:abc"],
       name: 'Redirect',
       component: () => import('../views/Redirect.vue'),
     },

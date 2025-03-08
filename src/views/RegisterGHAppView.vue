@@ -1,9 +1,14 @@
 <script setup lang='ts'>
 import { onMounted, useTemplateRef } from 'vue';
+import { useRoute } from 'vue-router';
 
 const btn = useTemplateRef<HTMLButtonElement>("submit")
+const route = useRoute()
 onMounted(() => {
-  btn.value?.click();
+  if (!route.query.manual) {
+    btn.value?.click();
+  }
+  console.log(route.query.manifest);
 })
 </script>
 
